@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="131528" started-at="2019-09-28T07:13:00Z" finished-at="2019-09-28T07:15:11Z">
+    <groups>
+    </groups>
+    <test name="login Test" duration-ms="131528" started-at="2019-09-28T07:13:00Z" finished-at="2019-09-28T07:15:11Z">
+      <class name="loginTestCases.LoginTests">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:loginTestCases.LoginTests@7225790e]" name="setUp" is-config="true" duration-ms="62582" started-at="2019-09-28T07:13:00Z" finished-at="2019-09-28T07:14:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_001_LoginTest_LoginWithValidCredential_FreeAccount()[pri:0, instance:loginTestCases.LoginTests@7225790e]" name="TC_001_LoginTest_LoginWithValidCredential_FreeAccount" duration-ms="32934" started-at="2019-09-28T07:14:02Z" finished-at="2019-09-28T07:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_LoginTest_LoginWithValidCredential_FreeAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginTestCases.LoginTests@7225790e]" name="tearDown" is-config="true" duration-ms="3468" started-at="2019-09-28T07:14:35Z" finished-at="2019-09-28T07:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:loginTestCases.LoginTests@7225790e]" name="setUp" is-config="true" duration-ms="29166" started-at="2019-09-28T07:14:39Z" finished-at="2019-09-28T07:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_002_LoginTest_VerifyPageTitle()[pri:0, instance:loginTestCases.LoginTests@7225790e]" name="TC_002_LoginTest_VerifyPageTitle" duration-ms="414" started-at="2019-09-28T07:15:08Z" finished-at="2019-09-28T07:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_LoginTest_VerifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginTestCases.LoginTests@7225790e]" name="tearDown" is-config="true" duration-ms="2742" started-at="2019-09-28T07:15:08Z" finished-at="2019-09-28T07:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loginTestCases.LoginTests -->
+    </test> <!-- login Test -->
+  </suite> <!-- Suite -->
+</testng-results>
